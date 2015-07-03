@@ -19,7 +19,7 @@ In matlab, run [root]/run_all.m.
 The implementation is composed of four parts that repeat for both grayscale and color descriptors:
 1. Choose feature templates (CREATE_GRAYSCALE_MODEL/CREATE_COLOR_MODEL).
 2. Calculate the descriptors of the chameleon images (CREATE_GRAYSCALE_FEATURES / 	
-   CREATE_COLOR_FEATURES).
+   CREATE_COLOR_FEATURES).   
 3. Learn a classification model for each pair of classes and measure accuracy in a
    leave-one-out manner (RUN_CLASSIFICATION_ON_GRAYSCALE / RUN_CLASSIFICATION_ON_COLOR).
 4. Show the results of six chosen classes (accuracy + p-values).
